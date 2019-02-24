@@ -284,8 +284,8 @@ button.swiper-pagination-bullet {
   cursor: pointer;
 }
 .swiper-pagination-bullet-active {
-  opacity: 1;
-  background: #007aff;
+  opacity: 0;
+  background: white;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
@@ -342,7 +342,7 @@ button.swiper-pagination-bullet {
   position: absolute;
 }
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #007aff;
+  background: white;
   position: absolute;
   left: 0;
   top: 0;
