@@ -83,7 +83,7 @@
         size: 156,
         thickness: 3,
         fill: {
-            gradient: ["#ffe059", "#F6EFA6"]
+            gradient: ["var(--secondary-dark-color)", "#F6EFA6"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(Math.round(83 * progress) + '<i>%</i>');
@@ -95,7 +95,7 @@
         size: 156,
         thickness: 3,
         fill: {
-            gradient: ["#ffe059", "#F6EFA6"]
+            gradient: ["var(--secondary-dark-color)", "#F6EFA6"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(Math.round(100 * progress) + '<i>%</i>');
@@ -107,7 +107,7 @@
         size: 156,
         thickness: 3,
         fill: {
-            gradient: ["#ffe059", "#F6EFA6"]
+            gradient: ["var(--secondary-dark-color)", "#F6EFA6"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(Math.round(75 * progress) + '<i>%</i>');
@@ -119,7 +119,7 @@
         size: 156,
         thickness: 3,
         fill: {
-            gradient: ["#ffe059", "#F6EFA6"]
+            gradient: ["var(--secondary-dark-color)", "#F6EFA6"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(Math.round(65 * progress) + '<i>%</i>');
@@ -137,14 +137,14 @@
     });
 
     // Bar Filler
-    $('.featured-fund-raised-bar').barfiller({ barColor: '#1636d9', duration: 1500 });
+    $('.featured-fund-raised-bar').barfiller({ barColor: 'var(--primary-dark-color)', duration: 1500 });
 
-    $('.fund-raised-bar-1').barfiller({ barColor: '#1636d9', duration: 1500 });
-    $('.fund-raised-bar-2').barfiller({ barColor: '#1636d9', duration: 1500 });
-    $('.fund-raised-bar-3').barfiller({ barColor: '#1636d9', duration: 1500 });
-    $('.fund-raised-bar-4').barfiller({ barColor: '#1636d9', duration: 1500 });
-    $('.fund-raised-bar-5').barfiller({ barColor: '#1636d9', duration: 1500 });
-    $('.fund-raised-bar-6').barfiller({ barColor: '#1636d9', duration: 1500 });
+    $('.fund-raised-bar-1').barfiller({ barColor: 'var(--primary-dark-color)', duration: 1500 });
+    $('.fund-raised-bar-2').barfiller({ barColor: 'var(--primary-dark-color)', duration: 1500 });
+    $('.fund-raised-bar-3').barfiller({ barColor: 'var(--primary-dark-color)', duration: 1500 });
+    $('.fund-raised-bar-4').barfiller({ barColor: 'var(--primary-dark-color)', duration: 1500 });
+    $('.fund-raised-bar-5').barfiller({ barColor: 'var(--primary-dark-color)', duration: 1500 });
+    $('.fund-raised-bar-6').barfiller({ barColor: 'var(--primary-dark-color)', duration: 1500 });
 
     // Load more
     let $container      = $('.portfolio-container');
